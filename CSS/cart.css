@@ -1,0 +1,42 @@
+.banniere {
+    height: calc(100vh - 7rem);
+    background-color: beige;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.banniere-contenu {
+    height: 100%;
+}
+
+.banniere-contenu .left {
+    margin-top: -5rem;
+    margin-left: 10%;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    font-size: 1.2em;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-size: 1em;
+    color: var(--noir);
+    background-color: var(--blanche);
+    font-family: 'Poppins', sans-serif;
+}

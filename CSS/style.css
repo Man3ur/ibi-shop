@@ -8,11 +8,11 @@
   
   .banniere-contenu {
       height: 100%;
-      margin-left: 10%;
   }
   
   .banniere-contenu .left {
       margin-top: -5rem;
+      margin-left: 10%;
   }
   
   *,
